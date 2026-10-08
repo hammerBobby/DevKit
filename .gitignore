@@ -1,0 +1,15 @@
+# Node
+node_modules/
+dist/
+
+# Rust
+src-tauri/target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Misc
+assets/
+*.log

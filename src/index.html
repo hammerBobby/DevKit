@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevKit - 开发工具箱</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-logo">DK</div>
+          <div class="brand-name">DevKit</div>
+        </div>
+        <nav class="nav" id="nav">
+          <button class="nav-item active" data-view="json">
+            <span class="nav-icon">{} </span>
+            <span class="nav-label">JSON 工具</span>
+          </button>
+          <button class="nav-item" data-view="jwt">
+            <span class="nav-icon">JWT</span>
+            <span class="nav-label">JWT 解析</span>
+          </button>
+          <button class="nav-item" data-view="crypto">
+            <span class="nav-icon">#</span>
+            <span class="nav-label">加密工具</span>
+          </button>
+          <button class="nav-item" data-view="sql">
+            <span class="nav-icon">SQL</span>
+            <span class="nav-label">SQL 参数替换</span>
+          </button>
+        </nav>
+        <div class="sidebar-footer">
+          <span class="version">v0.1.0</span>
+        </div>
+      </aside>
+      <main class="content">
+        <div id="json-view" class="view active">
+          <!-- JSON 工具 -->
+        </div>
+        <div id="jwt-view" class="view">
+          <!-- JWT 解析 -->
+        </div>
+        <div id="crypto-view" class="view">
+          <!-- 加密工具 -->
+        </div>
+        <div id="sql-view" class="view">
+          <!-- SQL 替换 -->
+        </div>
+      </main>
+    </div>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
