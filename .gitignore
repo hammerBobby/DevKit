@@ -4,6 +4,8 @@ dist/
 
 # Rust
 src-tauri/target/
+native/target/
+native/target-icon-check/
 
 # IDE
 .idea/
@@ -12,4 +14,6 @@ src-tauri/target/
 
 # Misc
 assets/
+!native/assets/
+!native/assets/**
 *.log
